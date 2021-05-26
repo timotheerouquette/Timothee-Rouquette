@@ -1,0 +1,146 @@
+body {
+  background-color: #d7ebf8;
+  color: #4e4e4e;
+  font-family: system-ui, sans-serif;
+  font-size: 18px;
+  line-height: 12px;
+}
+
+h1 {
+  color: #48abec;
+  font-family: Helvetica;
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: 10;
+  margin: 18px;
+}
+
+h2,
+h3 {
+  color: #1c81c4;
+  font-family: Roboto;
+  font-size: 24px;
+  line-height: 12px;
+  font-weight: 300;
+}
+
+a {
+  color: #1c81c4;
+  text-decoration: none;
+  transition: all 0.5s ease-in-out;
+}
+
+a:hover {
+  color: #48abec;
+  text-decoration: none;
+  transition: all 0.5s ease-in-out;
+}
+
+p {
+  color: #48abec;
+  line-height: 22px;
+  font-size: 16px;
+}
+
+ul{
+  padding-inline-start: 0px;
+  margin-top: 34px;
+  height: 50px
+}
+
+li > a {
+  font-size: 50px;
+  margin: 15px;
+}
+
+img {
+  margin: 10px;
+}
+
+.icon {
+  height: auto;
+  width: auto;
+}
+
+.container {
+  width: 600px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.card {
+  border-radius: 1rem;
+  text-align: center;
+  background: white;
+  padding: 25px;
+  border: 1px solid lightgrey;
+  margin-top: 15px;
+  margin-top: 15px;
+  box-shadow: 0 13px 8px -10px
+}
+
+.img-circle {
+  border-radius: 50%;
+  margin-top: 15px;
+  margin-top: 15px;
+  border: 5px solid #48abec;
+}
+
+.img-circle:hover {
+  border: 5px solid lightgrey;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.socials ul li {
+  display: inline-block;
+}
+
+.button {
+  display: inline-block;
+  padding: .3rem .6rem;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-size: 1rem;
+  border-radius: .3rem;
+  border: 1px solid transparent;
+  transition: all 500ms ease;
+  cursor: pointer;
+  font-family: Roboto;
+  background-color: #d7ebf8;
+  color: #fff;
+  margin: 15px;
+  line-height: 22px
+}
+
+.button:hover {
+  background-color: #1c81c4;
+  color: #fff;
+  transition: all 500ms ease;
+}
+
+.button-rouded {
+  border-radius: 5rem;
+}
+
+@media (max-width: 650px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 400px;
+  }
+}
+
+@media (max-width: 450px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
